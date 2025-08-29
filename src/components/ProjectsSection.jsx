@@ -69,23 +69,24 @@ const projects = [
       { value: "15%", label: "Time Savings" },
     ],
   },
-  {
-    id: 4,
-    title: "Vibe Coding: Personal Projects & Prototyping",
-    problem:
-      "I wanted to maintain and showcase my technical fluency, ensuring I could communicate effectively with engineering teams and understand development constraints firsthand.",
-    myRole:
-      "I independently designed and coded a series of web projects, including this portfolio site. This involved hands-on UI/UX design, front-end development using modern frameworks, and rapid prototyping to validate new ideas and learn emerging technologies.",
-    outcome:
-      "These ongoing projects serve as a testament to my ability to translate abstract concepts into tangible products. My hands-on experience allows me to make informed product decisions, anticipate technical challenges, and foster stronger collaboration with technical teams.",
-    githubLink: "https://github.com/nathanewing/vibe-coding-projects",
-    liveDemoLink: "https://www.your-project-url.com",
-    tags: ["React", "Tailwind CSS", "Prototyping", "Technical Fluency", "UI/UX"],
-    metrics: [
-      { value: "Faster", label: "Prototyping" },
-      { value: "Improved", label: "Eng. Comms" },
-    ],
-  },
+{
+  id: 4,
+  title: "Mental Health Community Engagement Program — Co-Founder & Data Scientist",
+  problem:
+    "Colorado communities face persistent gaps in mental-health access and education. Policymakers receive large volumes of public testimony, but extracting structured insights from qualitative narratives is difficult—slowing progress on patient-centered improvements.",
+  myRole:
+    "Co-founded and co-led a remote initiative (Denver Metro) with medical students, clinicians, community members, and a policy lobbyist. Built Python-based NLP pipelines to analyze public testimonies and surface patient pain points. Designed the research plan, trained and onboarded new contributors, and established durable processes across analytics, outreach, and interview teams.",
+  outcome:
+    "Our analysis highlighted actionable barriers in access and education and informed advocacy and curriculum ideas. Findings were presented at the American Psychiatric Association Annual Meeting (May 2023). We expanded the team, formalized workflows across three functions, and created a repeatable approach to translate community voices into policy and education insights.",
+  githubLink: "#",        // no public repo—leave as "#" to hide button
+  liveDemoLink: "https://www.annfammed.org/content/21/Supplement_1/4257",      // no live demo—leave as "#" to hide button
+  tags: ["Health Equity", "NLP", "Python", "Community Research", "Mental Health"],
+  metrics: [
+    { value: "8", label: "Members Onboarded" },
+    { value: "APA 2023", label: "Conference Presentation" },
+    { value: "3", label: "Teams Trained" }
+  ],
+},
 ];
 
 const ProjectsSection = () => {
