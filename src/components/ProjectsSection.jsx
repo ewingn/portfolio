@@ -28,7 +28,7 @@ const projects = [
       "Early testers report that Swimmingly makes practice feel like entertainment: real-world content + on-demand AI practice = more consistency. Role-play arcs increase time-on-task, and auto-generated flashcards slash study prep time. The platform now supports multiple languages and continues to expand with new arcs and content pipelines.",
     githubLink: "https://github.com/ewingn/swimmingly-mvp",
     liveDemoLink: "https://swimmingly-mvp.vercel.app/",
-    tags: ["AI/ML", "EdTech", "React", "Firebase", "Personalization"],
+    tags: ["AI/ML", "Generateive AI", "EdTech", "React", "Firebase", "Personalization"],
     metrics: [
       { value: "500+", label: "Flashcards Generated" },
       { value: "90%+", label: "Users More Motivated" },
