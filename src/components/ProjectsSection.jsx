@@ -45,7 +45,7 @@ const projects = [
     outcome:
       "This personal project serves as a dynamic, interactive tool that demonstrates my ability to blend language learning with technology. The prototype successfully simulates fluid conversations and has proven to be a highly effective, non-intimidating way to practice real-world language skills.",
     githubLink: "https://github.com/nathanewing/feichungwurao-simulator",
-    liveDemoLink: "https://www.feichungwurao-simulator.com",
+    liveDemoLink: "https://feichungwurao-simulator.vercel.app/",
     tags: ["Conversational AI", "NLP", "EdTech", "Personal Project", "Mandarin"],
     metrics: [
       { value: "50+", label: "Simulated Dialogues" },
