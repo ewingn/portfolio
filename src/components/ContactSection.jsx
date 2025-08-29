@@ -25,7 +25,7 @@ const ContactSection = () => {
             <div className="contact-methods flex flex-col gap-4">
               {/* Email */}
               <a
-                href="mailto:nathan.ewing@email.com"
+                href="mailto:nathan.w.ewing@email.com"
                 // Adjusted padding and border to match original
                 className="contact-method flex items-center gap-4 bg-white/10 p-4 rounded-xl border border-white/10 hover:bg-white/20 transition hover:translate-x-1"
               >
@@ -52,7 +52,7 @@ const ContactSection = () => {
                 className="contact-method flex items-center gap-4 bg-white/10 p-4 rounded-xl border border-white/10 hover:bg-white/20 transition hover:translate-x-1"
               >
                 <Phone className="w-5 h-5" />
-                <span className="text-white">+1 (234) 567-890</span>
+                <span className="text-white"></span>
               </a>
             </div>
 
@@ -60,7 +60,9 @@ const ContactSection = () => {
             <div className="languages-note bg-white/5 p-6 rounded-xl border border-white/10 mt-8">
               <h4 className="font-semibold text-white mb-2">🌍 Languages</h4>
               <p className="text-sm text-gray-300">
-                Currently learning Mandarin Chinese (HSK 5) — I believe language and culture are key to building global products.
+                Currently learning Mandarin Chinese (HSK 5) and Vietnamese 
+                Deeply interested in the intersection of language acquisition and tech development
+                 as it relates to building global products.
               </p>
             </div>
           </div>
@@ -72,7 +74,7 @@ const ContactSection = () => {
               For now, reach me by email or LinkedIn. A full contact form will be added soon!
             </p>
             <a
-              href="mailto:nathan.ewing@email.com"
+              href="mailto:nathan.w.ewing@email.com"
               className="inline-block bg-primary text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-primary-light transition"
             >
               📧 Email Me
