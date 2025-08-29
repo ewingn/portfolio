@@ -2,7 +2,7 @@ import React from 'react';
 import { FileText } from 'lucide-react';
 
 const ResumeSection = () => {
-  const resumeLink = "https://nathanewing.github.io/Resume.pdf"; // Placeholder: Replace with your actual resume PDF link
+  const resumeLink = "https://github.com/ewingn/portfolio/blob/main/Resume_Nathan_Ewing_.pdf"; // Placeholder: Replace with your actual resume PDF link
 
   return (
     <section id="resume" className="py-16 md:py-24 px-6 md:px-8 lg:px-16 bg-gray-50 relative z-20">

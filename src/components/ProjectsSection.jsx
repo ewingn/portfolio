@@ -19,39 +19,35 @@ const getHeaderGradient = (id) => {
 const projects = [
   {
     id: 1,
-    title: "Swimmingly: Personalized Swim Training",
-    problem: "Amateur and competitive swimmers lack access to personalized training plans and real-time performance analytics, leading to stagnant progress and high dropout rates.",
-    myRole: "I led the product discovery and development of Swimmingly, an AI-powered mobile app. My role involved conducting user interviews, defining the product roadmap, and collaborating with a data science team to build a recommendation engine for training routines.",
-    outcome: "Swimmingly successfully launched on iOS and Android, acquiring over 5,000 active users in the first six months. The personalized training plans led to a 25% increase in weekly workout completion and a 15% improvement in user-reported performance.",
-    githubLink: "https://github.com/nathanewing/swimmingly",
-    liveDemoLink: "https://www.swimminglyapp.com",
-    tags: [
-      "Mobile App",
-      "AI/ML",
-      "Personalization",
-      "User Research",
-      "EdTech",
-    ],
+    title: "Swimmingly: AI-Powered Language Learning Platform",
+    problem:
+      "Learners struggle to find engaging, level-appropriate content and affordable speaking practice. Traditional apps are rigid, while live tutoring is costly and unreliable. People need a flexible, fun way to practice speaking, listening, and review—powered by content they actually enjoy.",
+    myRole:
+      "I founded, designed, and built Swimmingly as a React + Tailwind + Firebase web app. I led user research and product strategy, then shipped the core features: Swimmy (AI chat) for speaking practice, instant flashcard & mini-quiz generation from real videos/podcasts/articles, and immersive role-play arcs like “Move to Taipei.” I implemented responsive UI, auth, and data models for multi-language support.",
+    outcome:
+      "Early testers report that Swimmingly makes practice feel like entertainment: real-world content + on-demand AI practice = more consistency. Role-play arcs increase time-on-task, and auto-generated flashcards slash study prep time. The platform now supports multiple languages and continues to expand with new arcs and content pipelines.",
+    githubLink: "https://github.com/ewingn/swimmingly-mvp",
+    // Replace "#" with your live URL (e.g., your Vercel link) to show the button
+    liveDemoLink: "#",
+    tags: ["AI/ML", "EdTech", "React", "Firebase", "Personalization"],
     metrics: [
-      { value: "5K+", label: "Active Users" },
-      { value: "25%", label: "Workout Completion" },
+      { value: "500+", label: "Flashcards Generated" },
+      { value: "90%+", label: "Users More Motivated" },
+      { value: "4+", label: "Languages Supported" },
     ],
   },
   {
     id: 2,
     title: "Feichungwurao Simulator: Conversational Chinese",
-    problem: "Mandarin learners struggle to find engaging, low-pressure environments to practice conversational speaking and listening comprehension, a key barrier to fluency.",
-    myRole: "Inspired by a popular Chinese dating show, I designed and coded the Feichungwurao Simulator. I defined the core features, including natural language processing (NLP) for simulated conversations and dynamic branching narratives based on user responses.",
-    outcome: "This personal project serves as a dynamic, interactive tool that demonstrates my ability to blend language learning with technology. The prototype successfully simulates fluid conversations and has proven to be a highly effective, non-intimidating way to practice real-world language skills.",
+    problem:
+      "Mandarin learners struggle to find engaging, low-pressure environments to practice conversational speaking and listening comprehension, a key barrier to fluency.",
+    myRole:
+      "Inspired by a popular Chinese dating show, I designed and coded the Feichungwurao Simulator. I defined the core features, including natural language processing (NLP) for simulated conversations and dynamic branching narratives based on user responses.",
+    outcome:
+      "This personal project serves as a dynamic, interactive tool that demonstrates my ability to blend language learning with technology. The prototype successfully simulates fluid conversations and has proven to be a highly effective, non-intimidating way to practice real-world language skills.",
     githubLink: "https://github.com/nathanewing/feichungwurao-simulator",
     liveDemoLink: "https://www.feichungwurao-simulator.com",
-    tags: [
-      "Conversational AI",
-      "NLP",
-      "EdTech",
-      "Personal Project",
-      "Mandarin",
-    ],
+    tags: ["Conversational AI", "NLP", "EdTech", "Personal Project", "Mandarin"],
     metrics: [
       { value: "50+", label: "Simulated Dialogues" },
       { value: "100%", label: "Personal Ownership" },
@@ -60,9 +56,12 @@ const projects = [
   {
     id: 3,
     title: "Scrub-In: Clinical Workflow Management",
-    problem: "Medical professionals and students face significant challenges in managing and documenting complex clinical procedures, leading to errors and inefficient training.",
-    myRole: "As the lead product manager, I defined the product vision for 'Scrub-In,' a tool designed to streamline clinical workflow documentation. My responsibilities included conducting extensive stakeholder interviews with physicians and nurses, creating user stories, and managing the agile development process from ideation to launch.",
-    outcome: "Scrub-In was successfully piloted in a partner hospital, improving documentation accuracy by 30% and reducing the time spent on administrative tasks by 15%. This project demonstrates my ability to navigate complex, high-stakes environments and deliver products that improve professional outcomes.",
+    problem:
+      "Medical professionals and students face significant challenges in managing and documenting complex clinical procedures, leading to errors and inefficient training.",
+    myRole:
+      "As the lead product manager, I defined the product vision for 'Scrub-In,' a tool designed to streamline clinical workflow documentation. My responsibilities included conducting extensive stakeholder interviews with physicians and nurses, creating user stories, and managing the agile development process from ideation to launch.",
+    outcome:
+      "Scrub-In was successfully piloted in a partner hospital, improving documentation accuracy by 30% and reducing the time spent on administrative tasks by 15%. This project demonstrates my ability to navigate complex, high-stakes environments and deliver products that improve professional outcomes.",
     githubLink: "https://github.com/nathanewing/scrub-in",
     liveDemoLink: "https://www.scrub-in.com",
     tags: ["HealthTech", "Agile", "User-Centric Design", "Workflow", "B2B SaaS"],
@@ -74,9 +73,12 @@ const projects = [
   {
     id: 4,
     title: "Vibe Coding: Personal Projects & Prototyping",
-    problem: "I wanted to maintain and showcase my technical fluency, ensuring I could communicate effectively with engineering teams and understand development constraints firsthand.",
-    myRole: "I independently designed and coded a series of web projects, including this portfolio site. This involved hands-on UI/UX design, front-end development using modern frameworks, and rapid prototyping to validate new ideas and learn emerging technologies.",
-    outcome: "These ongoing projects serve as a testament to my ability to translate abstract concepts into tangible products. My hands-on experience allows me to make informed product decisions, anticipate technical challenges, and foster stronger collaboration with technical teams.",
+    problem:
+      "I wanted to maintain and showcase my technical fluency, ensuring I could communicate effectively with engineering teams and understand development constraints firsthand.",
+    myRole:
+      "I independently designed and coded a series of web projects, including this portfolio site. This involved hands-on UI/UX design, front-end development using modern frameworks, and rapid prototyping to validate new ideas and learn emerging technologies.",
+    outcome:
+      "These ongoing projects serve as a testament to my ability to translate abstract concepts into tangible products. My hands-on experience allows me to make informed product decisions, anticipate technical challenges, and foster stronger collaboration with technical teams.",
     githubLink: "https://github.com/nathanewing/vibe-coding-projects",
     liveDemoLink: "https://www.your-project-url.com",
     tags: ["React", "Tailwind CSS", "Prototyping", "Technical Fluency", "UI/UX"],
@@ -104,24 +106,35 @@ const ProjectsSection = () => {
               key={project.id}
               className="project-card bg-white rounded-2xl overflow-hidden border border-border shadow-md hover:shadow-xl transition transform hover:-translate-y-1 flex flex-col"
             >
-              <div className={`project-header p-6 ${getHeaderGradient(project.id)} text-white`}>
+              <div
+                className={`project-header p-6 ${getHeaderGradient(
+                  project.id
+                )} text-white`}
+              >
                 <h3 className="project-title text-xl font-semibold mb-2">
                   {project.title}
                 </h3>
               </div>
               <div className="project-content p-6 flex flex-col flex-grow">
                 <div className="project-narrative mb-6 text-sm text-text-secondary leading-[1.6]">
-                  <h4 className="font-bold text-text-primary mb-1">The Challenge:</h4>
+                  <h4 className="font-bold text-text-primary mb-1">
+                    The Challenge:
+                  </h4>
                   <p className="mb-4">{project.problem}</p>
                   <h4 className="font-bold text-text-primary mb-1">My Role:</h4>
                   <p className="mb-4">{project.myRole}</p>
-                  <h4 className="font-bold text-text-primary mb-1">The Outcome:</h4>
+                  <h4 className="font-bold text-text-primary mb-1">
+                    The Outcome:
+                  </h4>
                   <p>{project.outcome}</p>
                 </div>
                 {project.metrics && (
                   <div className="project-metrics grid grid-cols-2 gap-4 mb-6">
                     {project.metrics.map((metric, idx) => (
-                      <div key={idx} className="metric text-center bg-surface p-4 rounded-lg">
+                      <div
+                        key={idx}
+                        className="metric text-center bg-surface p-4 rounded-lg"
+                      >
                         <span className="metric-value text-lg font-semibold text-success block">
                           {metric.value}
                         </span>
