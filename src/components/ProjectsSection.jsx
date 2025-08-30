@@ -52,23 +52,26 @@ const projects = [
       { value: "100%", label: "Personal Ownership" },
     ],
   },
-  {
-    id: 3,
-    title: "Scrub-In: Clinical Workflow Management",
-    problem:
-      "Medical professionals and students face significant challenges in managing and documenting complex clinical procedures, leading to errors and inefficient training.",
-    myRole:
-      "As the lead product manager, I defined the product vision for 'Scrub-In,' a tool designed to streamline clinical workflow documentation. My responsibilities included conducting extensive stakeholder interviews with physicians and nurses, creating user stories, and managing the agile development process from ideation to launch.",
-    outcome:
-      "Scrub-In was successfully piloted in a partner hospital, improving documentation accuracy by 30% and reducing the time spent on administrative tasks by 15%. This project demonstrates my ability to navigate complex, high-stakes environments and deliver products that improve professional outcomes.",
-    githubLink: "https://github.com/nathanewing/scrub-in",
-    liveDemoLink: "https://www.scrub-in.com",
-    tags: ["HealthTech", "Agile", "User-Centric Design", "Workflow", "B2B SaaS"],
-    metrics: [
-      { value: "30%", label: "Documentation Accuracy" },
-      { value: "15%", label: "Time Savings" },
-    ],
-  },
+{
+  id: 3,
+  title: "ScrubIn: Gamified Surgical Training Platform",
+  tagline: "Master Surgical Skills with Precision",
+  problem:
+    "Medical professionals and students face significant challenges in managing and documenting complex clinical procedures, leading to errors and inefficient training.",
+  description:
+    "ScrubIn is a clinically designed training platform delivering bite-sized, gamified, and high-fidelity learning — made for future surgeons and current experts alike. It’s built to make surgical education engaging, efficient, and accessible, with real surgeon input guiding course design.",
+  myRole:
+    "As the lead product manager, I defined the product vision for 'ScrubIn,' a gamified tool for surgical training. My responsibilities included conducting extensive stakeholder interviews with physicians and nurses, creating user stories, and managing the agile development process from ideation to launch.",
+  outcome:
+    "ScrubIn was successfully piloted in a partner hospital, improving documentation accuracy by 30% and reducing the time spent on administrative tasks by 15%.",
+  githubLink: "https://github.com/ewingn/scrubin.io",
+  liveDemoLink: "https://scrubin-io-j34z.vercel.app/",
+  tags: ["HealthTech", "Agile", "User-Centric Design", "Workflow", "B2B SaaS"],
+  metrics: [
+    { value: "30%", label: "Documentation Accuracy" },
+    { value: "15%", label: "Time Savings" },
+  ],
+},
 {
   id: 4,
   title: "Mental Health Community Engagement Program — Co-Founder & Data Scientist",
