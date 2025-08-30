@@ -63,13 +63,13 @@ const projects = [
   myRole:
     "As the lead product manager, I defined the product vision for 'ScrubIn,' a gamified tool for surgical training. My responsibilities included conducting extensive stakeholder interviews with physicians and nurses, creating user stories, and managing the agile development process from ideation to launch.",
   outcome:
-    "ScrubIn was successfully piloted in a partner hospital, improving documentation accuracy by 30% and reducing the time spent on administrative tasks by 15%.",
+    "ScrubIn is currently in its MVP stage — a functional shell that demonstrates the core vision for gamified surgical education. Future iterations will incorporate user feedback, pilot testing, and measurable training outcomes.",
   githubLink: "https://github.com/ewingn/scrubin.io",
   liveDemoLink: "https://scrubin-io-j34z.vercel.app/",
-  tags: ["HealthTech", "Agile", "User-Centric Design", "Workflow", "B2B SaaS"],
+  tags: ["HealthTech", "Agile", "User-Centric Design", "Gamified Learning", "REACT"],
   metrics: [
-    { value: "30%", label: "Documentation Accuracy" },
-    { value: "15%", label: "Time Savings" },
+    { value: "6", label: "Mock Lessons" },
+    { value: "90%", label: "users Reporting Improved Confidence" },
   ],
 },
 {
